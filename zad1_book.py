@@ -1,11 +1,5 @@
 class book:
 
-    title = ''
-    author = ''
-    yrOfPublishment = None
-    nbrOfPages = None
-    owner = ''
-
     def __init__(self, title, author, yrOfPublishment, nbrOfPages, owner):
         self.title = title
         self.author = author
