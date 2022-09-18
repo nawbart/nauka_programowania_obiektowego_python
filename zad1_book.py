@@ -4,3 +4,6 @@ class book:
     yrOfPublishment = None
     nbrOfPages = None
     owner = ''
+
+    def newOwner(self, newOwner):
+        self.owner = newOwner
