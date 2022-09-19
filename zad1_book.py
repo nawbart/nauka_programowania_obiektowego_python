@@ -12,7 +12,7 @@ class book:
 
 
 HP = book('Harry Potter', 'J.K Rowling', 1998, 499, 'Bartek')
-LoR = book('Lords of Rings', 'J.R.R Tolkien', 1995, 350, 'Michał')
+LoR = book('Lords of Rings', 'J.R.R Tolkien', 1995, 350, 'Przemysław')
 GM = book('Green Mile', 'S.King', 1996, 730, 'Kamila')
 
 list_of_books = []
