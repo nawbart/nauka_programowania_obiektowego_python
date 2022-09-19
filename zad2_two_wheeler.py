@@ -8,11 +8,15 @@ class two_wheeler(ABC):
         self.brand = brand
         self.gearbox = gearbox
 
-    def mileage(self):
+    def mileage(self):      #przebieg
         return self.mileage()
 
-    def go(self):
+    def go(self):       #metoda jedz, powodujaca zwiekszanie sie przebiegu
         self.mileage += 1
+
+    @abstractmethod
+    def giveData(self):         #abstrakcyjna metoda podaj dane
+        pass
 
     class scooter(two_wheeler):
 
@@ -21,7 +25,7 @@ class two_wheeler(ABC):
 
 
 
-    classmotocross(two_wheeler):
+    class motocross(two_wheeler):
 
-    def jump(self):
-        print("Here is", self.type, 'i can jump over huge things')
+        def jump(self):
+            print("Here is", self.type, 'i can jump over huge things')
